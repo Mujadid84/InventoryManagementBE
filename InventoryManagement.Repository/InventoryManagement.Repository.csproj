@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagement.Contracts\InventoryManagement.Contracts.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Entities\InventoryManagement.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
